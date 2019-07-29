@@ -18,17 +18,14 @@
 	switch($hari){
 		case 'kerja':
 			$upah = $waktu*(2*((1/173)*$gaji));
-			//echo $upah;
 		break;
 		
 		case 'libur':
 			$upah = $waktu*(3*((1/173)*$gaji));
-			//echo $upah;
 		break;
 		
 		default:
 			$upah = $waktu*(1.5*((1/173)*$gaji));
-			//echo $upah;
 		break;
 	}
 	
