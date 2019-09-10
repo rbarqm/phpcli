@@ -8,8 +8,10 @@
 	$action = trim(fgets($lakukan));
 	
 	$encrypt_method = "AES-256-CBC";
-	$secret_key = 'This is my secret key';
-	$secret_iv = 'This is my secret iv';
+	//$secret_key = 'This is my secret key';
+	//$secret_iv = 'This is my secret iv';
+	$secret_key = 'Bismillah';
+	$secret_iv = 'Astagfirullah';
 
 	// hash
 	$key = hash('sha256', $secret_key);
