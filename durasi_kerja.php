@@ -17,5 +17,8 @@
 	echo "Durasi bekerja : " . $jam . " Jam " . $menit . " Menit"; echo "\n";
 	
 	$lembur = $jam - 9;
-	echo "Lama lemburan : ".$lembur." jam";
+	if($lembur < 0){
+		$lembur = 0;
+	}
+	echo "Durasi lembur : ".$lembur." jam";
 ?>
